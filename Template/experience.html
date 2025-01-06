@@ -1,0 +1,102 @@
+<section id="experience" class="py-5">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-4">Experience</h2>
+        <div class="timeline">
+            <!-- Timeline Years -->
+            <div class="timeline-years d-flex justify-content-around mb-4">
+                <button class="btn btn-outline-primary timeline-year" data-year="2023-2024">Sept 2023 - Nov
+                    2024</button>
+                <button class="btn btn-outline-primary timeline-year" data-year="2022-2022">May 2022 - July
+                    2022</button>
+                <button class="btn btn-outline-primary timeline-year" data-year="2021-2022">Nov 2021 - Feb 2022</button>
+            </div>
+            <!-- Experience Details -->
+            <div class="timeline-conten d-flex justify-content-center" id="timelinecenter">
+                <!-- 2023 - 2024 Experience -->
+                <div class="timeline-item card text-center p-3 shadow active" id="year-2023-2024">
+                    <h5 class="card-title">Associate Software Engineer</h5>
+                    <p class="card-subtitle mb-2"><strong>Tech Mahindra</strong> | Pune, India</p>
+                    <ul>
+                        <li>Collaborated in the development of web-based applications using React.js,TypeScript, and
+                            RESTful web services, integrating with backend systems built on Java Spring Boot.</li>
+                        <li> Enhanced user experience by implementing new features aligned with client communication
+                            strategies, reducing user pain points by 25%.</li>
+                        <li>Played a key role in cross-functional Scrum teams, contributing to high-quality,
+                            tested code by practicing Test-Driven Development (TDD).</li>
+                        <li>Led code review sessions, providing and receiving constructive feedback, and
+                            ensured 95% code coverage with automated testing using JUnit and Mockito.</li>
+                        <li>Designed CI/CD pipelines to streamline deployment processes, reducing build
+                            times by 20% and ensuring consistent production readiness.</li>
+                        <li>Actively participated in Agile ceremonies, including sprint planning and
+                            retrospectives, and facilitated smooth task prioritization and on-time delivery.</li>
+                        <li>Promoted clean, maintainable code practices, mentoring junior team members
+                            and driving continuous learning within the team.</li>
+                    </ul>
+                </div>
+                <!-- 2022 - 2022 Experience -->
+                <div class="timeline-item card text-center p-3 shadow" id="year-2022-2022">
+                    <h5 class="card-title">Martian Intern</h5>
+                    <p class="card-subtitle mb-2"><strong>Persistent System</strong> | Remote</p>
+                    <ul>
+                        <li>Excelled in the Martian Program Examination, achieving a 95% score,
+                            demonstrating in-depth knowledge of Computer Networks, DBMS, Data
+                            Structures, Algorithms, and Programming Languages.</li>
+                        <li>Explored and documented emerging frameworks such as Angular and Node.js,
+                            providing actionable insights that led to a 20% faster adoption of these tools
+                            within the team.</li>
+                        <li>Engaged in research on real-world use cases of modern web technologies,
+                            presenting findings to senior management to support project planning and
+                            technology choices.</li>
+                    </ul>
+                </div>
+                <!-- 2021 - 2022 Experience -->
+                <div class="timeline-item card text-center p-3 shadow" id="year-2021-2022">
+                    <h5 class="card-title">Web Developer Intern</h5>
+                    <p class="card-subtitle mb-2"><strong>AasPass Infotech</strong> | Remote</p>
+                    <ul>
+                        <li>Designed and implemented a dynamic front-end interface using HTML5,
+                            JavaScript, and Angular. Introduced an interactive navigation system and
+                            responsive design, boosting user engagement by 30%.</li>
+                        <li>Developed a single-page application (SPA) for the client portal, which reduced
+                            average page load times by 40% and streamlined user interactions through
+                            efficient state management.</li>
+                        <li>Collaborated closely with UI/UX designers to translate complex wireframes
+                            into pixel-perfect, responsive web interfaces compatible with all modern
+                            browsers and devices.</li>
+                        <li>Integrated Git for version control and ensured code consistency through
+                            regular peer reviews, significantly reducing deployment errors.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const buttons = document.querySelectorAll(".timeline-year");
+            const items = document.querySelectorAll(".timeline-item");
+    
+            buttons.forEach(button => {
+                button.addEventListener("click", () => {
+                    // Remove active state from all buttons and items
+                    buttons.forEach(btn => btn.classList.remove("active"));
+                    items.forEach(item => item.classList.remove("active"));
+    
+                    // Add active state to the clicked button
+                    button.classList.add("active");
+    
+                    // Show the corresponding timeline item
+                    const year = button.getAttribute("data-year");
+                    const targetItem = document.querySelector(`#year-${year.replace(/ /g, "-")}`);
+                    if (targetItem) {
+                        targetItem.classList.add("active");
+                    }
+                });
+            });
+    
+            // Trigger the first button click to display the first timeline item
+            if (buttons.length > 0) {
+                buttons[0].click();
+            }
+        });
+    </script> -->
