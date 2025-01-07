@@ -474,6 +474,7 @@ footer {
 
     #about p {
         font-size: 0.95rem; /* Adjust paragraph font size */
+        text-align: left;
     }
 
     .about-layout {
@@ -546,6 +547,10 @@ footer {
 
     .cardsize {
         height: 60vh; /* Smaller card size */
+    }
+
+    #experience li{
+        text-align: left;
     }
 
     .social-media a {
