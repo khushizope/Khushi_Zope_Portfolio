@@ -344,6 +344,10 @@ footer {
 
 @media (max-width: 768px) {
 
+    #home img{
+        margin-bottom: 1rem;
+    }
+
     #about h2 {
         font-size: 1.75rem;
     }
@@ -467,6 +471,10 @@ footer {
 }
 
 @media (max-width: 568px) {
+
+    #home img{
+        margin-bottom: 1rem;
+    }
 
     #about h2 {
         font-size: 1.5rem; /* Smaller font size for headings */
